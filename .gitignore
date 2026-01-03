@@ -1,0 +1,49 @@
+# --- 1. VS Code & IDE Settings ---
+.vscode/
+.idea/
+*.swp
+
+# --- 2. Operating System Junk (Mac & Windows) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- 3. Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- 4. Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+
+# --- 5. DATA & MODELS (Prevent huge file uploads) ---
+*.csv
+*.tsv
+*.json
+*.parquet
+*.pkl
+*.pickle
+*.bin
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+*.onnx
+
+# --- 6. Logs & Output ---
+*.log
+runs/
+results/
+outputs/
